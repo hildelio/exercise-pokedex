@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/* 
 .app {
   text-align: center;
   margin: 3%;
@@ -14,7 +14,7 @@
   padding: 3%;
 }
 
-.card-content{
+.card-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -37,4 +37,4 @@
   list-style: none;
   width: 200px;
   height: 300px;
-}
+} */

@@ -10,10 +10,10 @@ class Pokedex extends Component {
         <h1 className="title">Pokédex</h1>
         <ul className="card-content">
           {
-            pokemonList.map((pokemon) => (<Pokemon
+            pokemonList ? pokemonList.map((pokemon) => (<Pokemon
               key={ pokemon.id }
               pokemon={ pokemon }
-            />))
+            />)) : <p>Pokemon Not Found!</p>
           }
         </ul>
       </div>
